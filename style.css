@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.nav-container{
+
+.nav-container {
     background: gray;
     color: whitesmoke;
     display: flex;
@@ -10,17 +11,19 @@
     justify-content: space-around;
     align-items: center;
 }
-.menus{
+
+.menus {
     list-style: none;
     display: flex;
     gap: 20px;
     font-size: 20px;
 }
+
 /* banner */
-.banner-container{
+.banner-container {
     height: 100vh;
-    background-image: url("./asset/image/background.jpg"), 
-    linear-gradient(rgba(0 ,0, 0,0.4),rgba(0,0,0,0.2));
+    background-image: url("./asset/image/background.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,21 +32,25 @@
     align-items: center;
     text-align: center;
 }
-.banner-title{
+
+.title {
     font-size: 65px;
     color: white;
 }
-.primary{
+
+.primary {
     color: red;
 }
-.banner-desc{
+
+.desc {
     color: white;
     width: 50%;
     margin: auto;
     font-size: 20px;
     padding: 10px 0;
 }
-.btn-primary{
+
+.btn-primary {
     background: red;
     color: white;
     font-size: 16px;
@@ -52,10 +59,87 @@
     padding: 15px 25px;
     border-radius: 5px;
 }
-.btn-primary-2{
+
+.btn-primary-2 {
     font-size: 16px;
     font-weight: bold;
     padding: 15px 25px;
     border-radius: 5px;
     border: 0;
+}
+
+/* services */
+.services-container {
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 35px ;
+}
+.service-desc , .sub-desc{
+       color: white;
+       width: 50%;
+       padding: 8px;
+}
+.box-img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+.first-two-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.author-btn{
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 50px;
+    color: orange;
+}
+.author-btn-2{
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    color: orange;
+    margin-bottom: 50px;
+
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid red;
+    padding-right: 90px;
+   
+}
+.author-info{
+    color: white;
+    font-size: 15px;
+}
+
+.author-profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+   
 }
