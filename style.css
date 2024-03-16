@@ -79,18 +79,22 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 35px ;
+    padding: 0 35px;
 }
-.service-desc , .sub-desc{
-       color: white;
-       width: 50%;
-       padding: 8px;
+
+.service-desc,
+.sub-desc {
+    color: white;
+    width: 50%;
+    padding: 8px;
 }
-.box-img{
+
+.box-img {
     width: 60px;
     margin-bottom: 20px;
 }
-.box{
+
+.box {
     width: 150px;
     height: 150px;
     background-color: white;
@@ -98,20 +102,22 @@
     padding: 40px;
     text-align: center;
 }
-.first-two-box{
+
+.first-two-box {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
 
-.author-btn{
+.author-btn {
     border-radius: 50px;
     border: 0;
     padding: 10px 20px;
     margin-top: 50px;
     color: orange;
 }
-.author-btn-2{
+
+.author-btn-2 {
     border-radius: 50px;
     border: 0;
     padding: 10px 20px;
@@ -119,32 +125,36 @@
     margin-bottom: 50px;
 
 }
-.author-container{
+
+.author-container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.author-profile{
+
+.author-profile {
     display: flex;
     align-items: center;
     gap: 20px;
     border-right: 2px solid red;
     padding-right: 90px;
-   
+
 }
-.author-info{
+
+.author-info {
     color: white;
     font-size: 15px;
 }
 
-.author-profile img{
+.author-profile img {
     width: 60px;
     height: 60px;
     border-radius: 40px;
 
 }
+
 /* appointment */
-.appointment-container{
+.appointment-container {
     display: flex;
     background-color: red;
     align-items: center;
@@ -154,22 +164,60 @@
     padding: 20px 40px;
     gap: 20px;
     color: white;
-    border-radius: 15px ;
+    border-radius: 15px;
     margin-top: -20px;
 }
-.appointment-contact{
-  display: flex;
-   align-items: center;
-   border-right: 2px solid rgb(239, 237, 237);
-   padding-right: 20px;
-}
-.appointment-contact img{
- width: 60px;
- height: 60px; 
- gap: 10px;
- margin-right: 10px;
+
+.appointment-contact {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgb(239, 237, 237);
+    padding-right: 20px;
 }
 
+.appointment-contact img {
+    width: 60px;
+    height: 60px;
+    gap: 10px;
+    margin-right: 10px;
+}
 
+/* blog */
+.blog-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
 
+.blog-title {
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
 
+.blog-desc {
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.blog-card img {
+    width: 300px;
+}
+
+.blog-card {
+    width: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.card-title {
+    padding: 8px;
+}
+
+.card-desc {
+    padding: 8px;
+}
