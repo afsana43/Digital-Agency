@@ -141,5 +141,35 @@
     width: 60px;
     height: 60px;
     border-radius: 40px;
-   
+
 }
+/* appointment */
+.appointment-container{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    padding: 20px 40px;
+    gap: 20px;
+    color: white;
+    border-radius: 15px ;
+    margin-top: -20px;
+}
+.appointment-contact{
+  display: flex;
+   align-items: center;
+   border-right: 2px solid rgb(239, 237, 237);
+   padding-right: 20px;
+}
+.appointment-contact img{
+ width: 60px;
+ height: 60px; 
+ gap: 10px;
+ margin-right: 10px;
+}
+
+
+
+
