@@ -223,13 +223,15 @@
 }
 
 /* footer section */
-.footer-container{
+.footer-container {
     background: #dfdddd;
     display: flex;
     justify-content: space-around;
     padding: 30px 0;
+    padding-top: 50px;
 }
-.footer-content{
+
+.footer-content {
     color: rgb(39, 39, 39);
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
