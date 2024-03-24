@@ -221,3 +221,15 @@
 .card-desc {
     padding: 8px;
 }
+
+/* footer section */
+.footer-container{
+    background: #dfdddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.footer-content{
+    color: rgb(39, 39, 39);
+    margin-bottom: 40px;
+}
